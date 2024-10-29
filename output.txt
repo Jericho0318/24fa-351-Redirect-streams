@@ -1,4 +1,6 @@
 pear
 peach
 apple
-./redirect pid is 4583. forked 0. Parent exiting
+orange
+banana
+./redirect pid is 4722. forked 0. Parent exiting

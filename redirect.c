@@ -49,7 +49,7 @@ int main(int argc, char* argv[])
 
     }
     close(input_fd);
-    const char *words[] = {"pear", "peach", "apple"};
+    const char *words[] = {"pear", "peach", "apple", "orange", "banana"};
     size_t numwords = sizeof(words)/sizeof(words[0]);
     for (size_t i = 0; i < numwords; i++) {
         dprintf(output_fd, "%s\n", words[i]);
